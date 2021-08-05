@@ -20,10 +20,8 @@ class LinkedList {
       let next;
       while (current !== null){
           next = current.next;
-          // if (next !== null) {
               while(next !== null && current.value === next.value){
                   next = next.next;
-              // }
           }
           current.next = next;
           current = next;
