@@ -9,4 +9,8 @@ Ex. Anagrams - given two strings, write a function to determine if the second st
 Ex. sumZero - given a sorted array of integers, find the first pair where the sum is zero
 - Multiple pointers: 
 Ex. countUniqueValues - given a sorted array, count the unique values in the array
-# 
+
+# Sliding Window
+- Create a window which can be  either an array or number from one position to another to keep track of a subset
+- The window either increases or closes depending on a certain condition
+Ex. maxSubarraySum - given an array of integers and a number n, calculate the maximum sum of n consecutive elements in the array
