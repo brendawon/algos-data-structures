@@ -1,4 +1,5 @@
 //DSA Udemy Course
+//Given two strings, write a function to determine if the second string is an anagram of the first.
 
 //if strs are not equal length, return false
 //create obj to store frequencies
