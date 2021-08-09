@@ -1,6 +1,7 @@
 //DSA Udemy Course
 
 //solution using pointers, i and j
+//edge case: array is empty
 //i = 0 and outside of loop; loop through j which starts at 1 for j < arr.length
 //if arr[i] = arr[j], do nothing and keep looping through j
 //if arr[i] !== arr[j], values are unique

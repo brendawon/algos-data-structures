@@ -36,10 +36,11 @@ function validAnagram(str1, str2){
     //         }
     //     }
     //     for (let i = 0; i < str2.length; i++){
+    //         // ZERO is FALSEY so when an obj value is 0, it will return false
     //         if (!obj[str2[i]]){
     //             return false;
     //         } else {
-    //             obj[str2[i]] = -1
+    //             obj[str2[i]] -= 1
     //         }
     //     }
     //     return true;

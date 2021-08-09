@@ -1,6 +1,7 @@
 # Frequency counters
 - Use objects to count how often something occurs
 - Increment or decrement
+Ex. sameFrequency - given two positive integers, find out if two numbers have the same frequency of digits
 Ex. Anagrams - given two strings, write a function to determine if the second string is an anagram of the first
 
 # Pointers
@@ -14,3 +15,7 @@ Ex. countUniqueValues - given a sorted array, count the unique values in the arr
 - Create a window which can be  either an array or number from one position to another to keep track of a subset
 - The window either increases or closes depending on a certain condition
 Ex. maxSubarraySum - given an array of integers and a number n, calculate the maximum sum of n consecutive elements in the array
+
+# Divide and Conquer
+- Divide a data set into smaller chunks and repeat the process with a subset of data
+Ex. binary search (check from the middle, if the target is greater or less, go to either the left or right of the middle and find that middle value; repeat)
