@@ -1,3 +1,5 @@
+//AlgoExpert - Easy
+
 // This is an input class. Do not edit.
 class LinkedList {
     constructor(value) {
