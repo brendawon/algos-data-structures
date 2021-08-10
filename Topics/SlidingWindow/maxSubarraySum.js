@@ -1,4 +1,5 @@
 //DSA Udemy Course
+//Write a function which accepts an array of integers and a number n. The function should calculate the maxium sum of n consecutive elements in the array.
 
 //store max value
 //store temp value

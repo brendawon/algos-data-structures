@@ -1,4 +1,5 @@
 //DSA Udemy Course
+//Implement a function that accepts a sorted array and counts the unique values in the array.
 
 //solution using pointers, i and j
 //edge case: array is empty

@@ -1,4 +1,5 @@
 //DSA Udemy Course
+//Implement a function which accepts a variable number of arguments and checks whether there are any duplicates among the arguments passed in.
 
 //turn arguments into array
 //frequency:

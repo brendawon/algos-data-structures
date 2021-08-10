@@ -1,4 +1,5 @@
 // DSA Udemy Course
+//Given two positive integers, find out of the two numbers have the same frequency of digits.
 
 //turn nums to strings
 //compare length of str1 and str2; if not equal, return false
