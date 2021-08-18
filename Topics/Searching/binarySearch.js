@@ -1,5 +1,6 @@
 //DSA Udemy Course
 
+//works because the array is SORTED
 //assign start pointer, end pointer, middle pointer (Math.floor(start + end / 2))
 //while arr middle is NOT value, loop through the array
 //if < middle, make end = middle-1
@@ -18,9 +19,5 @@ function binarySearch(arr, val){
         }
         middle = Math.floor((start+end)/2);
     }
-    if (arr[middle] === val){
-        return middle;
-    } else {
-        return -1
-    }
+    return arr[middle] === val ? middle : -1;
 }
