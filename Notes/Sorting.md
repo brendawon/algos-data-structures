@@ -12,7 +12,9 @@ JavaScript built in sort:
 
 Sorts the largest value to the end first (the largest value 'bubbles' to the 'top')
 
+- Works well with almost sorted data
 - Big O = O(n^2)
+- Space is constant, O(1)
 
 How to swap:
 let temp = arr[idx1];
@@ -28,5 +30,13 @@ Similar to bubble sort, but places small values first rather than the larger val
 
 - Better than bubble sort only to reduce some memory as not as many swaps are being made
 - Big O = O(n^2)
+- Still inefficient even if data is almost sorted
+- Space is constant, O(1)
 
 ## Insertion Sort
+
+Gradually creates a larger left half which is always sorted (by inserting values in the correct spot)
+
+- Big O = O(n^2)
+- Works well with almost sorted data
+- Space is constant, O(1)
