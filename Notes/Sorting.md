@@ -40,3 +40,11 @@ Gradually creates a larger left half which is always sorted (by inserting values
 - Big O = O(n^2)
 - Works well with almost sorted data
 - Space is constant, O(1)
+
+## Merge Sort - split, merge, and sort
+
+Breaks a large array into smaller arrays of 1 or 0 elements and then merge them
+
+##
+
+##
