@@ -45,6 +45,16 @@ Gradually creates a larger left half which is always sorted (by inserting values
 
 Breaks a large array into smaller arrays of 1 or 0 elements and then merge them
 
-##
+- Big O = O(n log n)
+  - n log n because: arrays are split in half during each step (log n) and there is a while loop in the merge function (n)
+- Space is O(n)
+
+## Quick Sort
+
+Like merge sort, split the array into 0 or 1 elements. Select one element (pivot point) and move all numbers less than it to the left and all the numbers greater than it to the right. Keep track of how man are less than or greatter than and then the pivot point is moved to the correct location. Recursively repeat the process with the other elements.
+
+- Big O = O(n log n)
+  - log n because there are decompositions, n comparisons for each decomposition
+- Space is O(log n)
 
 ##

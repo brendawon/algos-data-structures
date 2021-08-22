@@ -24,7 +24,7 @@ function merge(arr1, arr2) {
 
 //sorting part of mergeSort
 //base case: if array length is 1 or 0 elements, return the array
-//use slice to break arrays into halves recursively and use the merge function
+//use slice to break arrays into halves and recursively call mergesort to sort them, use the merge function
 function mergeSort(arr) {
   if (arr.length <= 1) {
     return arr;
