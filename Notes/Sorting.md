@@ -57,4 +57,13 @@ Like merge sort, split the array into 0 or 1 elements. Select one element (pivot
   - log n because there are decompositions, n comparisons for each decomposition
 - Space is O(log n)
 
-##
+## Radix Sort - NOT a comparison sort
+
+Never makes a comparison between two elements; just exploits the fact that more digits = larger number
+
+- Places elements into buckets based on the right most digit; sort them in order; repeat the process with the next digit over
+- Number of passes = the number of digits in the largest number
+
+Helper function to return the digit at the given place value
+
+- Big O = O(nk) where n is the length of the array and k is the number of digits
