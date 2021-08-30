@@ -67,6 +67,7 @@ class SinglyLinkedList {
     return this;
   }
   get(index) {
+    //returns node at a given index
     if (index < 0 || index >= this.length) {
       return null;
     }
@@ -79,11 +80,33 @@ class SinglyLinkedList {
     return current;
   }
   set(val, index) {
+    //changes the value of node at a specific index
     let foundNode = this.get(index);
     if (!foundNode) {
       return false;
     }
     foundNode.val = val;
+    return true;
+  }
+  insert(val, index) {
+    //inserts node with value at the index (the previous node at that index is moved)
+    if (index < 0 || index > this.length) {
+      return false;
+    }
+    if (index === this.length) {
+      this.push(val);
+      return true;
+    }
+    if (index === 0) {
+      this.unshift(val);
+      return true;
+    }
+    var newNode = new Node(val);
+    let prev = this.get(index - 1);
+    let temp = prev.next;
+    prev.next = newNode;
+    newNode.next = temp;
+    this.length++;
     return true;
   }
 }
