@@ -78,6 +78,14 @@ class SinglyLinkedList {
     }
     return current;
   }
+  set(val, index) {
+    let foundNode = this.get(index);
+    if (!foundNode) {
+      return false;
+    }
+    foundNode.val = val;
+    return true;
+  }
 }
 
 let list = new SinglyLinkedList();
