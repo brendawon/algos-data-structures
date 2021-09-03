@@ -14,7 +14,8 @@
 
 ## Doubly Linked Lists
 
-- Linked List that has nodes in which each node can point to multiple nodes
+- Linked List that has nodes in which each node can point to multiple nodes (next and previous pointers)
+- Compared to singly linked lists, doubly linked lists take up more memory, but they have more flexibility
 
 ## Stacks
 
