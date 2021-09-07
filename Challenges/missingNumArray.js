@@ -1,0 +1,1 @@
+//write a function that takes an array of integers starting from 1 (inclusive) but with one of the numbers missing and another number duplicated; return the sum of the duplicate and the missing number
