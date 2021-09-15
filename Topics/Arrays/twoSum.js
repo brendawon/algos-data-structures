@@ -18,7 +18,9 @@ var twoSum = function (nums, target) {
   }
   for (let i = 0; i < nums.length; i++) {
     let diff = target - nums[i];
-    if (obj[diff]) {
+
+    //need to put i !== obj[diff] to avoid duplicate indices
+    if (i !== obj[diff] && obj[diff]) {
       return [i, obj[diff]];
     }
   }
