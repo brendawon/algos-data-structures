@@ -21,3 +21,20 @@ function bubbleSort(arr) {
   }
   return arr;
 }
+
+//with a while loop
+// function bubbleSort(array){
+//   let sorted = false
+//   while(!sorted){
+// 		sorted = true;
+//     let firstNum = 0
+//     for(let i = 1; i < array.length; i++){
+//       if(array[firstNum] > array[i]){
+//         sorted = false;
+//         [array[i], array[firstNum]] = [array[firstNum], array[i]]
+//       }
+//       firstNum++
+//     }
+// 	}
+// 	return array
+// }
