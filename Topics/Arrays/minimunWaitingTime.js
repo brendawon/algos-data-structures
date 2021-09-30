@@ -8,7 +8,7 @@ function minimumWaitingTime(queries) {
     //before a query can start, all previous queries have to finish running, meaning that every query's run time can be counted for every subsequent query
     //--> the duration of the current query happens for each remaining query (so multiply the duration of the current query by the number of queries left)
 
-    let queriesLeftToRun = queries.length - 1 - i;
+    let queriesLeftToRun = queries.length - (i + 1);
     let currentIndexRunTime = queries[i];
     time += queriesLeftToRun * currentIndexRunTime;
     //add that to the total time
