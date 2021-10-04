@@ -12,5 +12,3 @@ function formatDate(userDate) {
 
   return `${yr}${month}${day}`;
 }
-
-console.log(formatDate("12/31/2014"));
