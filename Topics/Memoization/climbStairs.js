@@ -6,9 +6,8 @@
 //n = 4 -> 5 (1,1,1,1 & 1,1,2 & 1,2,1 & 2,1,1 & 2,2)
 
 //add memo to arguments
-var climbStairs = function (n, memo) {
-  //memo = memo input when given, if not, memo is an empty obj
-  memo = memo || {};
+var climbStairs = function (n, memo = {}) {
+  //memo initialized as an empty obj
 
   if (n <= 2) return n;
 
