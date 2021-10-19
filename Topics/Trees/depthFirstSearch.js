@@ -10,7 +10,7 @@ function depthFirstSearch(root) {
 
   while (stack.length > 0) {
     let current = stack.pop();
-    results.push(current);
+    results.push(current.val);
 
     //pushing the right side first because we want to the left side to be behind the right so when we pop off, we pop the left
     if (current.right) stack.push(current.right);
