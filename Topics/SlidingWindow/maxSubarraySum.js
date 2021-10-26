@@ -41,7 +41,7 @@ var maxSubArray = function(nums) {
     
         //find which is larger, the current num i or the tempSum + nums[i]; tempSum becomes this
         //we are moving the window along by comparing; if the current index val is larger, the previous values from the window can be discarded; a new starting window is created with nums[i]
-        tempSum = Math.max(nums[i], tempSum+=nums[i]);
+        tempSum = Math.max(nums[i], tempSum+nums[i]);
         
         maxSum = Math.max(maxSum, tempSum);
     }
